@@ -1,0 +1,99 @@
+<app-nav></app-nav>
+
+<div class="container ">
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn my-btn" data-toggle="modal" data-target="#addnew">Add New Staff</button>
+        <button type="button" class="btn my-btn">Download Report</button>
+    </div>
+    <table class="table bg-white">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Area</th>
+                <th scope="col">Role</th>
+                <th scope="col">Contact Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Asif Bajwa</td>
+                <td>B650 block 18, clifton, karachi</td>
+                <td>Office Manager</td>
+                <td><button type="button" class="btn my-btn btn-sm" data-toggle="modal" data-target="#contactModal">View
+                        More</button></td>
+                        
+                <td>
+                    <i data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"
+                        class="fas fa-angle-down right"></i>
+                    <div class="dropdown-menu lefter">
+                        <a class="dropdown-item" href="#">Details</a>
+                        <a class="dropdown-item" href="#">Edit</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="contactModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Contact Info</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn my-btn btn-sm" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="addnew" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add new</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input class="form-control" type="text" name="name" id="client" />
+                    </div>
+                    <div class="form-group">
+                        <label>Area</label>
+                        <input class="form-control" type="text" name="text" id="addre">
+                    </div>
+
+                    <label>Role</label>
+                    <select class="form-control">
+                        <option>Payment Collector
+                        </option>
+                        <option>Staff</option>
+                        <option>Manager</option>
+                        <option>Office Manager</option>
+                    </select>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-success btn-sm" data-dismiss="modal">Add</button>
+                <button type="button" class="btn my-btn btn-sm" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>

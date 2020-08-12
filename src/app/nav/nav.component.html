@@ -1,0 +1,71 @@
+<nav class="navbar-dark bg-nav ">
+    <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+            <a class="nav-link " data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">Notifications</a>
+            <div class="dropdown-menu overflow_auto">
+                <div class="alert ">
+                    <p><i class="fa fa-user mr-2 icon"></i> Added you to friends list</p>
+                    <div class="dropdown-divider"></div>
+                </div>
+                <div class="alert ">
+                    <p><i class="fa fa-money-bill-alt icon mr-2"></i> John bill cleared</p>
+                    <div class="dropdown-divider"></div>
+                </div>
+                <div class="alert ">
+                    <p><i class="fa fa-user-friends icon mr-2"></i> Added you to friends list</p>
+                    <div class="dropdown-divider"></div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false"><img class="img" src="./assets/img/img.jpg" /></a>
+            <div class="dropdown-menu lefter">
+                <a class="dropdown-item" href="#">Profile</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Logout</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<div class="main-wrap">
+
+    <input id="slide-sidebar" type="checkbox" role="button" />
+    <label for="slide-sidebar"><span><i class="fa fa-bars"></i></span></label>
+    <div class="sidebar">
+        <ul class="nav main-ul flex-column">
+            <li class="nav-item">
+                <img class="logo" src="./assets/img/angular_logo.svg" />
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" routerLink="/dashboard">Dashboard <i class="fas fa-th-large right"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/billing">Billing<i class="fas fa-money-bill right"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/s-area">Service Areas<i class="fas fa-suitcase right"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#submenu1" data-toggle="collapse" data-target="#submenu1">Actions <i
+                        class="fa fa-arrow-down right" aria-hidden="true"></i></a>
+                <div class="collapse" id="submenu1" aria-expanded="false">
+                    <ul class="flex-column pl-2 nav">
+                        <li class="nav-item"><a class="nav-link py-0" routerLink="/invoices">Invoices <i
+                                    class="fas fa-receipt right2"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/staff">Staff<i class="fa fa-user-friends right"></i></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/settings">Settings<i class="fas fa-cogs right"></i></a>
+            </li>
+        </ul>
+    </div>
+
+</div>

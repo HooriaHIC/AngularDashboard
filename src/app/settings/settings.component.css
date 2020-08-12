@@ -1,0 +1,48 @@
+
+.col-md{
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+    border-radius: 10px / 10px;
+    padding: 5px;
+    margin: 0 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
+}
+.col-md .second{
+    height: auto;
+}
+.row{
+    margin: 0 20px;
+
+}
+
+.col-md a:hover{
+    text-decoration: none;
+} 
+
+.my-btn{
+    border: 1.3px solid #B12FFC;
+    background-color: transparent;
+}
+
+.my-btn:hover{
+    background-color:#B12FFC;
+    color: white;
+}
+
+h3{
+    color: #3D3F4F;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+.btn-group{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.container-fluid{
+    height: 80px;
+}

@@ -1,0 +1,33 @@
+.container-fluid{
+    background-color: #1A0A26;
+    min-height: 100vh;
+}
+.container1{
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    padding-bottom: 50px !important;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.09);
+}
+
+img{
+    height: 200px;
+    padding-bottom: 10px;
+    filter: hue-rotate(290deg);
+    margin: auto;
+    display: block;
+}
+
+.my-btn{
+    border: 1.3px solid #3D3F4F;
+    float: right;
+    background-color: transparent;
+}
+
+.my-btn:hover{
+    background-color:#3D3F4F;
+    color: white;
+}

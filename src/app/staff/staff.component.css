@@ -1,0 +1,48 @@
+th{
+    color: #B12FFC;
+}
+
+.container{
+    box-shadow: 0 0 20px rgba(0,0,0,0.04);
+    margin-top: 40px;
+}
+
+.invoice-btn{
+    background: #28b4c8b0;
+    color: white;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn-group{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.my-btn{
+    border: 1.3px solid #B12FFC;
+    background-color: transparent;
+}
+
+.my-btn:hover{
+    background-color:#B12FFC;
+    color: white;
+}
+.right{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: -90px;
+}
+
+.lefter{
+    width: 70px;
+    font-size: 0.9em;
+    border: none;
+    margin-top: 0px;
+    box-shadow: 
+                0 0 20px rgba(0, 0, 0, 0.07);
+    background:#FFFFFF;
+}
